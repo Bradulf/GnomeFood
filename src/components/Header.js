@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
-        <header style={{ position: 'fixed', top: 0, width: '100%', background: 'white', zIndex: 1000 }}>
+        <header style={{ position: 'fixed', top: 0, width: '100%', background: 'lightgray', zIndex: 1000 }}>
             <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '1rem' }}>
                 <div style={{ fontWeight: 'bold' }}>My Blog</div>
                 <div>
